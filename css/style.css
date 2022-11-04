@@ -1,0 +1,77 @@
+:root {
+    --blue: #92c9ca;
+    --gray: #323540;
+    --light-gray: #cccdce;
+    --dark-blue: #1e4063;
+}
+
+/* Hero */
+.hero {
+    background-image: url("/images/02-hero-bg.jpg");
+    background-size: cover;
+    color: var(--gray);
+    
+}
+
+.hero h2 {
+background-color: var(--blue);
+display: flex;
+flex-flow: row-reverse;
+font-size: 25px;
+max-width: max-content;
+}
+
+/* NavBar */
+.nav-item a{
+    display: flex;
+    
+}
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .mr-auto{ 
+    color: var(--blue);
+    text-decoration: underline;
+    margin: 0 !important;
+}
+
+.navbar, .bg-light {
+    background-color: var(--gray) !important;
+    height: 100px;
+    
+}
+
+.navbar-brand {
+    background-color: var(--blue);
+    width: max-content;
+}
+
+.navbar-collapse, .navbar-nav {
+    justify-content: flex-end;
+    margin-right: 25px;
+}
+
+.display-3 h2 {
+    margin: 0;
+    justify-content: flex-end;
+}
+
+/* Work Section */
+
+.work-section, .work-section-small, .contact, .about {
+    margin-top: 25px;
+}
+
+.contact-list li {
+    display: inline-flex;
+    margin: 5px;
+    text-decoration: underline;
+    color: var(--gray);
+    font-weight: bolder;
+}
+
+.card {
+    border: 8px solid var(--blue);
+}
+
+.subtitle {
+    font-size: 55px;
+    border-right: 4px solid var(--gray)
+}
