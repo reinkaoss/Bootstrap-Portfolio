@@ -5,6 +5,10 @@
     --dark-blue: #1e4063;
 }
 
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* Hero */
 .hero {
     background-image: url("/images/02-hero-bg.jpg");
@@ -48,16 +52,37 @@ max-width: max-content;
     margin-right: 25px;
 }
 
-.display-3 h2 {
-    margin: 0;
+.display-3 {
+    margin: 0 auto;
     justify-content: flex-end;
 }
 
 /* Work Section */
 
-.work-section, .work-section-small, .contact, .skills, .about {
+.work-section, .work-section-small, .contact, .skills, .about, .skills2 {
     margin-top: 25px;
 }
+
+.card1-text {
+    text-align: center;
+    width: 100%;
+    margin: 33% 0;
+    position: absolute;
+    z-index: 100;
+    color: white;
+    left: 20px;
+    top: 100px;
+    background-color: var(--blue);
+    width: max-content;
+
+}
+@media only screen and (max-width: 500px){
+    .card1-text {
+        top: 30px;
+    }
+}
+
+/* Contact Section */
 
 .contact-list li {
     display: inline-flex;
@@ -74,7 +99,13 @@ max-width: max-content;
     } 
 }
 
+/* Skills Section */
 
+.progress {
+    margin-top: 10px;
+}
+
+/* General */
 .card {
     border: 8px solid var(--blue);
 }
@@ -84,7 +115,17 @@ max-width: max-content;
     border-right: 4px solid var(--gray)
 }
 
+@media only screen and (max-width: 500px){
+    .subtitle {
+        border-right: 0;
+        border-bottom: 4px solid var(--gray) ; 
+        margin-bottom: 5px;  
+    }
+}
 /* Footer */
 .text-dark a {
     color: var(--light-gray) !important;
+}
+.p-3, .text-center, .text-dark, .text-dark a {
+    color: var(--light-gray);
 }
