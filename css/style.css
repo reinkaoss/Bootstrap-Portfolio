@@ -82,20 +82,29 @@ max-width: max-content;
     }
 }
 
+@media only screen and (max-width: 500px){
+    .w-100 {
+    margin-top: 5px;
+    }
+}
 /* Contact Section */
 
-.contact-list li {
+.contact-list {
     display: inline-flex;
     margin: 5px;
     text-decoration: underline;
     color: var(--gray);
     font-weight: bolder;
+    justify-content: space-between;
 }
 
-@media only screen and (max-width: 600px){
-    ul {
+@media only screen and (min-width: 400px){
+    .d-sm-flex a {
         display: flex;
         flex-direction: column;
+        text-decoration: underline;
+        color: var(--gray);
+        text-decoration: none;
     } 
 }
 
@@ -106,13 +115,13 @@ max-width: max-content;
 }
 
 /* General */
-.card {
+.card  {
     border: 8px solid var(--blue);
 }
 
 .subtitle {
     font-size: 55px;
-    border-right: 4px solid var(--gray)
+    border-right: 4px solid var(--gray);
 }
 
 @media only screen and (max-width: 500px){
