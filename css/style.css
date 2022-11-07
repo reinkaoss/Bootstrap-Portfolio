@@ -5,6 +5,10 @@
     --dark-blue: #1e4063;
 }
 
+/* * * {
+    border: 1px solid red;
+} */
+
 * {
     font-family: 'Montserrat', sans-serif;
 }
@@ -52,6 +56,9 @@ max-width: max-content;
     margin-right: 25px;
 }
 
+.navbar-brand img{
+    max-width: 50px;
+}
 .display-3 {
     margin: 0 auto;
     justify-content: flex-end;
@@ -74,8 +81,34 @@ max-width: max-content;
     top: 100px;
     background-color: var(--blue);
     width: max-content;
-
 }
+
+.card2-text {
+    text-align: center;
+    width: 100%;
+    margin: 33% 0;
+    position: absolute;
+    z-index: 100;
+    color: white;
+    left: 20px;
+    top: 30px;
+    background-color: var(--blue);
+    width: max-content;
+}
+
+.card3-text {
+    text-align: center;
+    width: 100%;
+    margin: 33% 0;
+    position: absolute;
+    z-index: 100;
+    color: white;
+    left: 20px;
+    top: 30px;
+    background-color: var(--blue);
+    width: max-content;
+}
+
 @media only screen and (max-width: 500px){
     .card1-text {
         top: 30px;
@@ -89,17 +122,18 @@ max-width: max-content;
 }
 /* Contact Section */
 
-.contact-list {
+.contact-list, .contact-list a {
     display: inline-flex;
     margin: 5px;
     text-decoration: underline;
     color: var(--gray);
     font-weight: bolder;
     justify-content: space-between;
+    list-style-type:none
 }
 
-@media only screen and (min-width: 400px){
-    .d-sm-flex a {
+@media only screen and (max-width: 600px){
+    .contact-list, .contact-list a {
         display: flex;
         flex-direction: column;
         text-decoration: underline;
