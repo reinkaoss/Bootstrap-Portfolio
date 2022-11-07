@@ -16,17 +16,17 @@ Building this project taught me how flexible Bootstrap is and how easy and natur
 
 ## Usage
 
+Landing Page on Mobile screen
+    ![Small Screen](./images/Screenshot1.png)
 
-    ```md
-    ![alt text](/)
-    ```
+Landing page on laptop screen
+![Regular Screen](./images/Screenshot2.png)
 
 ## Credits
 
 [Sam Brooke](https://github.com/Sam010000101)
 
 [Vittoria Bugana](https://github.com/vbugana)
-
 
 ## License
 
